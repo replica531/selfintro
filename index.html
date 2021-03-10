@@ -4,23 +4,46 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Replica self-intro</title>
     <!-- BootstrapのCSS読み込み -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body style="background-image: url(images/keith-misner-h0Vxgz5tyXA-unsplash.jpg);">
-    <header style="background-color:gray">Header</header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-2" style="background-color:red;">Red</div>
-            <div class="col-sm-8 hidden-sm" style="background-color:blue;">Blue</div>
-            <div class="col-sm-2" style="background-color:yellow;">Yellow</div>
+  <body class="index-background justify-content-center" style="background-image: url(images/keith-misner-h0Vxgz5tyXA-unsplash.jpg);">
+    <header class="index-header" style="background: linear-gradient(#05ff6d, #03751c);">
+      <h1>Replica</h1>
+    </header>
+    <main class="container-fluid text-center col-10 col-md-6" >
+        <div class="container index-navlink" style="background: linear-gradient(#93f3bb, #58da74);">
+          <ul class="nav nav-tabs inex-nav">
+            <li class="nav-item" style="background: linear-gradient(#bff7d6, #a5f0b5);">
+              <a class="nav-link" aria-current="page" href="/index.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pets</a>
+            </li>
+          </ul>
         </div>
-    </div>
-    <footer style="background-color:gray">Footer</footer>
+        <div class="container index-profile" style="background: linear-gradient(#bff7d6, #a5f0b5);">
+          <div class="row">
+            <div class="col-12 index-profile-photo">
+              <img src="images/kanon.png" class="rounded float-start index-kanon" alt="カノン">
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer class="text-footer" style="background: linear-gradient(#05ff6d, #03751c);">
+      <h1>Replica</h1>
+    </footer>
   </body>
 </html>

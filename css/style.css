@@ -1,0 +1,36 @@
+.index-header {
+    color: white;
+}
+.index-background {
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.index-navlink {
+    margin: 20px auto 0;
+    border: none;
+}
+.index-nav {
+    border: none;
+}
+
+.index-profile {
+    margin: 0 auto 20px;
+    border: none;
+}
+.index-profile-photo {
+    text-align : center;
+    border : solid 1px;
+    position: relative;
+}
+
+.index-kanon {
+    height:200px;
+    width:200px;
+    margin: 5 auto;
+}
+
+.index-footer {
+    color: white;
+}
