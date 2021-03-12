@@ -47,13 +47,22 @@ main {
     text-align : center;
     position: relative;
 }
-
 .index-kanon {
     height:200px;
     width:200px;
     margin: 5 auto;
 }
-
+.index-twitter {
+    background: url('../images/twitter.svg') center no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.index-twitter:hover {
+    background-color: deepskyblue;
+    transform: scale(1.2, 1.2);
+  }
 .index-footer {
     color: white;
 }
