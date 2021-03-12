@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+  }
 .index-header {
     color: white;
 }
@@ -7,21 +15,36 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-.index-navlink {
-    margin: 20px auto 0;
+@media screen and (min-width:768px) {
+    .index-main {
+        border: none;
+        margin: 20px auto;
+        width: 50%;
+    }
+}
+@media screen and (max-width:767px) {
+    .index-main {
+        border: none;
+        margin: 20px auto;
+    }
+}
+.index-main {
     border: none;
+    margin: 20px auto;
 }
 .index-nav {
     border: none;
 }
-
+.nav-link:hover {
+    border: none;
+    background-color: rgb(40, 226, 87);
+}
 .index-profile {
     margin: 0 auto 20px;
     border: none;
 }
 .index-profile-photo {
     text-align : center;
-    border : solid 1px;
     position: relative;
 }
 
