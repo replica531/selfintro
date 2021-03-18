@@ -5,7 +5,10 @@ body {
 }
 main {
     flex: 1;
-  }
+}
+span {
+    color:darkgreen;
+}
 .index-header {
     color: white;
 }
@@ -69,4 +72,9 @@ main {
   }
 .index-footer {
     color: white;
+}
+
+.projects-icons {
+    width: 50px;
+    height: 50px;
 }
